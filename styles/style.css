@@ -157,6 +157,7 @@
 }
 
 .m-i4-i {
+    padding: 20px;
     width: 364.844px;
     height: 364.844px;
     flex-shrink: 0;
@@ -230,12 +231,32 @@
     padding: 0 4px;
 }
 
-.m-i5-21 {
-    flex: 50%;
-    padding: 0 4px;
+
+.discount{
+    position: relative;
+    left: 0;
+    bottom: 350px;
 }
 
+.girl{
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+}
 
+.border{
+    position: relative;
+    top: 366px;
+    left: 252px;
+}
+
+.gift{
+    height: 400px; 
+    width: 500px;
+    position: relative;
+    right: 1000px;
+    top: 300px;
+}
 
 /* ----------------------------------------------------- */
 
@@ -294,4 +315,36 @@ section {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
 
+}
+
+section h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+section p {
+    /* width: 896px; */
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.table { display: table; }
+div.t {
+    display: table-cell;
+    width: 100%;
+}
+div.t > input {
+    width: 100%;
 }
