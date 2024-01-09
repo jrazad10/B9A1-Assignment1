@@ -106,35 +106,46 @@
     border: none;
 }
 
-.m-i3 ul {
-    /* margin: 100px 280px 20px; */
-    margin: 20px 300px 20px;
-    text-align: center;
-    list-style: none;
-    flex-shrink: 0;
-    color: #070211;
-    font-family: Inter;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 56px;
-    text-transform: capitalize;
+.hotelpark {
+    padding: 30px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    border-radius: 8px;
-    width: 1320px;
-    height: 482px;
+    width: 1280px;
+    height: 400px;
+    margin: 0 auto;
 }
 
-.m-b2 {
+.park-title {
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.park-desc {
+    color: red;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.park-content {
+    text-align: center;
+}
+
+.btn-park {
+    margin-top: 10px;
+    border-radius: 8px;
+    background: red;
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 8px;
-    background: #F00;
     border: none;
-    color: #fff;
+    color: white;
 }
+
+
 
 
 /* ---------------------------------------------------- */
@@ -337,19 +348,22 @@ section p {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
+
 }
 
 .table {
     display: table;
+    text-align: center;
 }
 
 div.t {
+    text-align: center;
     display: table-cell;
     width: 100%;
 }
 
 div.t>input {
+    text-align: center;
     width: 100%;
 }
 
@@ -371,6 +385,8 @@ div.t>input {
 }
 
 .fp {
+    padding-top: 100px;
+    padding-bottom: 50px;
     width: 375px;
     height: 80px;
     color: #FFF;
@@ -381,8 +397,15 @@ div.t>input {
     line-height: 40px;
 }
 
+.f-icons {
+    width: 24px;
+    height: 24px;
+}
+
 .details {
-    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
     color: #fff;
     color: #FFF;
     font-family: Inter;
